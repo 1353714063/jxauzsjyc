@@ -18,7 +18,10 @@ public class PathFormat {
 	private static final String RAND = "rand";
 	
 	private static Date currentDate = null;
-	
+
+	public static test(){
+
+	}
 	public static String parse ( String input ) {
 		
 		Pattern pattern = Pattern.compile( "\\{([^\\}]+)\\}", Pattern.CASE_INSENSITIVE  );
