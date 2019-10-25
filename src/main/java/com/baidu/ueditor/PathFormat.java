@@ -52,7 +52,7 @@ public class PathFormat {
 		return input.replace( "\\", "/" );
 		
 	}
-
+ssa
 	public static String parse ( String input, String filename ) {
 	
 		Pattern pattern = Pattern.compile( "\\{([^\\}]+)\\}", Pattern.CASE_INSENSITIVE  );
